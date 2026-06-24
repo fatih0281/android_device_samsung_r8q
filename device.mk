@@ -82,5 +82,9 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
 
+# Surface flinger refresh rate
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # Inherit r8q blobs
 $(call inherit-product, vendor/samsung/r8q/r8q-vendor.mk)
