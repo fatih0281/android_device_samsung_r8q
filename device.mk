@@ -16,7 +16,7 @@
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-yaap
+    $(LOCAL_PATH)/overlay-lineage
 
 # call the common setup
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
