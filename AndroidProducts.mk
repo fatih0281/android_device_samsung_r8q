@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_r8q.mk
+    $(LOCAL_DIR)/custom_r8q.mk
